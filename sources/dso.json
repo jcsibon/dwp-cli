@@ -1,0 +1,582 @@
+[
+    {
+        "dsoSolution": "SAFIIS Bastion, EPO&WSUS",
+        "dsoJustification": "SAFIIS Bastion, EPO&WSUS",
+        "dsoShortDescription": "Solution used to facilitate and secure remote access into industrial network and provision of Antivirus and Windows patch updates and follow up of deployment",
+        "dsoISServices": "ISS-S007 & ISS-R007",
+        "edition": "2020"
+    },
+    {
+        "dsoSolution": "Reporting Table",
+        "dsoJustification": "Compliance",
+        "dsoShortDescription": "Mandatory reporting for affiliate (reporting table of anti-fraud and anti-corruption activities)",
+        "edition": "2020"
+    },
+    {
+        "dsoSolution": "MIE TOOL",
+        "dsoJustification": "Operations Efficiency",
+        "dsoShortDescription": "MIE TOOL is Total\u2019s solution for Maintenance & Inspection Engineering in project and affiliates.",
+        "dsoISServices": "DSO-R420",
+        "edition": "2020"
+    },
+    {
+        "dsoSolution": "Actions Tracker",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Managing and expediting critical actions within project organization, in particular mitigation actions from risks register. Actions Tracking module is part of New Prodom solution (based on PIMS)",
+        "edition": "2020"
+    },
+    {
+        "dsoSolution": "Risks Management",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Managing the project risk & opportunity register. Risks Management module is part of New Prodom solution (based on PIMS)",
+        "edition": "2020"
+    },
+    {
+        "dsoSolution": "Management of Change",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Workflow to validate or not a change within project organization. Management of Change module is part of New Prodom solution (based on PIMS)",
+        "dsoDomain": "IA",
+        "edition": "2020"
+    },
+    {
+        "dsoSolution": "SOX CM+ (SOX control management +)",
+        "dsoJustification": "Compliance Efficiency",
+        "dsoShortDescription": "SOX CM+: Management of SOX controls within the E&P affiliates.\nWeb Application hosted on the Affiliate\u2019s servers.\n\u00b7 Follow-up of the execution of controls (immediate Progress report on controls activity)\n\u00b7 tracking of late activity (alerts),\n\u00b7 storage of proofs of controls and electronic signature (options) enabling the dematerialization of controls\nLanguages: French \/ English \/ Spanish\nAdded value : automatic workflow, e-mails and auto-reminders and dematerialization storage of control documentation (options) enabling the dematerialization of controls.",
+        "dsoDomain": "Governance \/ SOX compliance"
+    },
+    {
+        "dsoSolution": "DoA Database",
+        "dsoJustification": "Compliance Efficiency",
+        "dsoShortDescription": "Delegation of Authorities (DoA) database.\nThe application is deployed in each entity and monitored at HQ level. Added value: interface with SAP and supporting tool to issue updated DOA",
+        "dsoDomain": "Governance \/ Delegation of Authorities"
+    },
+    {
+        "dsoShortDescription": "Application for the management of all Joint Ventures audits in E&P for Assets Operated by TOTAL (AO) and Assets Operated By Others (AOBO).\nThis tool facilitates the JV audit cycle and promotes the follow-up and resolution of all JV audit exceptions and recovery of funds for monetary exceptions.\nThe application is accessible through the Group internal network by using Internet Explorer browser. No software installation is needed and implementation can be done anytime.",
+        "dsoDomain": "Legal \/ Joint-Ventures",
+        "dsoSolution": "JOINT VENTURE AUDIT DATABASE",
+        "dsoJustification": "Compliance Efficiency"
+    },
+    {
+        "dsoSolution": "ESEARCH",
+        "dsoJustification": "Finding and Get access to E&P technical reports",
+        "dsoShortDescription": "Reference report data base in HQ and affiliates., Access via Eureka",
+        "dsoDomain": "Geoinformation"
+    },
+    {
+        "dsoJustification": "Find and Get access to unstructured data (Full text search)",
+        "dsoShortDescription": "Search engine solution for unstructured data\n- Local solution designed to browse unstructured data such as W: data or sharepoint data.\n- Data Access and data exploration can be configurable regarding affiliate structure.",
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "MATRIX *"
+    },
+    {
+        "dsoJustification": "Data QC for Seismics",
+        "dsoShortDescription": "Will be integrated in Sismage-CIG as the standard seismic data loader.\n- Enhanced seismic loader with advanced Analysis, control and reformat features.\nSeismic data loading into Sismage-CIG, SEGY analysis, reformatting. QC is also available as a standalone product for data management on SEGY data for other G&G interpretation tools or for capitalizing purposes.",
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "QSY"
+    },
+    {
+        "dsoJustification": "Storage of local affiliates data (when not hosted in HQ)",
+        "dsoShortDescription": "Solution for Well data management (Generalities and logs).\nA-Well will be proposed as an HQ service to enable Well data management functionalities for Affiliates.",
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "A-WELL *"
+    },
+    {
+        "dsoJustification": "Production Performance; Development Decisions",
+        "dsoShortDescription": "Pressure Transient Analysis (Well Test Analysis \u2013 Analytical Solutions) Management of Dynamic Uncertainties in Geoscience Studies",
+        "dsoDomain": "Reservoir",
+        "dsoISServices": "3G&R-R002",
+        "dsoSolution": "PIE & EST"
+    },
+    {
+        "dsoJustification": "Production Performance",
+        "dsoShortDescription": "MBAL : Material Balance Studies for Reservoir Engineering",
+        "dsoDomain": "Reservoir",
+        "dsoSolution": "IPM SUITE (MBAL)"
+    },
+    {
+        "dsoShortDescription": "Production Log Interpretation\nPressure Transient Analysis (Well Test Analysis \u2013 Numerical Solutions) & Management and Analysis of Permanent Pressure Gauge data",
+        "dsoDomain": "Reservoir",
+        "dsoISServices": "3G&R-R002",
+        "dsoSolution": "KAPPA EMERAUDE & KAPPA SAPHIR",
+        "dsoJustification": "Production Performance; Development Decisions"
+    },
+    {
+        "dsoDomain": "Reservoir",
+        "dsoSolution": "TEMPESTVIEW",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Post-processing of Eclipse & Intersect Reservoir Simulation"
+    },
+    {
+        "dsoDomain": "Reservoir",
+        "dsoSolution": "BEST",
+        "dsoJustification": "PVT & Process modeling",
+        "dsoShortDescription": "Inhouse PVT & Process modeling software for Subsurface and Surface. Integrates TOTAL R&D outputs with no real equivalent on the market."
+    },
+    {
+        "dsoDomain": "Geology",
+        "dsoISServices": "3GR-R007",
+        "dsoSolution": "T-SLICE",
+        "dsoJustification": "Management of Thin section data (physical, images, interpretations)",
+        "dsoShortDescription": "Gather all information related to thin sections, tool available for specialists (GTS\/ISS) to make their interpretations and for non-specialists to visualize and integrate the results in Explo and Gis studies"
+    },
+    {
+        "dsoSolution": "GWIS",
+        "dsoJustification": "Key DB for Petroleum system evaluations",
+        "dsoShortDescription": "Reference Database in Geochemistry, feeds the Basin Mastering process (Play maps). Strongly contributes to prospect charging evaluation. Access via EUREKA portal",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoSolution": "GENESIS \/TRINITY\/ KINEX",
+        "dsoJustification": "Quick look tools for Petroleum system evaluations",
+        "dsoShortDescription": "1D Modeling tools could be used by non-specialists. Source rock maturity level, migration timing etc...)",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoJustification": "Capitalization of outcrop sampling information",
+        "dsoShortDescription": "Outcrop sample database in HQ, Affiliates to send information to GTS\/IGR\/DEC using dedicated template (GTS\/IGR\/DEC in charge of database feeding)\nThis Reference DB concerns rock samples and fluid seeps collected during field campaigns. (CR_EP_GIN_108)\nAccess via EP Maps",
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "ADOPTERRE"
+    },
+    {
+        "dsoSolution": "WAKE UP",
+        "dsoJustification": "Upscaling of reservoir properties for Geomodels",
+        "dsoShortDescription": "Field geology upscaling tool (Porosity, Permeability, NTG, Sw, ...)",
+        "dsoDomain": "Reservoir"
+    },
+    {
+        "dsoSolution": "COPTOOLBOX",
+        "dsoJustification": "Well Acquisitions quality & Quick look evaluation",
+        "dsoShortDescription": "Well site tool box (GWD, Petrophysics, Pressure acquisition), to be used in priority by well site geologists, work is recovered and integrated in further studies\/evaluations",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoDomain": "Geology",
+        "dsoSolution": "WELLCAD",
+        "dsoJustification": "Core description and Interpretation",
+        "dsoShortDescription": "Tool for core description, mainly used by sedimentologists and structuralists. To import, edit, process and display Well data."
+    },
+    {
+        "dsoISServices": "3GR-R025",
+        "dsoSolution": "PETREL RE",
+        "dsoJustification": "Reservoir pre & post-processing) Production Performance",
+        "dsoShortDescription": "Provides Pre & Post-Processing of reservoir simulation for Eclipse and Intersect. It provides several functionalities that are not yet provided by Replix (Intersect pre-processing) or TempestView (Eclipse & Intersect post-processing) or Sismage CIG. Examples are multi-segmented wells, advanced local grid refinement, 3D contouring of dynamic properties.",
+        "dsoDomain": "Reservoir"
+    },
+    {
+        "dsoShortDescription": "Electronic Technical Document Management System (ETDMS) for E&P Projects and Operations, based on the Total E&P referential CR EP PJC 004 and GS PJC 701 702 703",
+        "dsoDomain": "IA",
+        "dsoISServices": "DSO-R301 DSO-R302",
+        "dsoSolution": "New PRODOM",
+        "dsoJustification": "Production Efficiency"
+    },
+    {
+        "dsoSolution": "QUANTUM",
+        "dsoJustification": "Production efficiency",
+        "dsoShortDescription": "Provide a Digital Twin for new physical assets in order to:\n- Accelerate studies and projects delivery and ease information hand over\n- Offer a single, easy access to relevant, contextualized and up-to-date information to multi-discipline users anywhere anytime to make fact-based decisions, increase safety awareness and reduce costs in Operations preparation and execution phases\n- Manage assets technical information along their lifecycle in a collaborative way (internally and externally) in order to increase efficiency and quality while reducing costs.",
+        "dsoDomain": "IA Digitial"
+    },
+    {
+        "dsoDomain": "IA",
+        "dsoSolution": "UCOST V2",
+        "dsoJustification": "Production efficiency",
+        "dsoShortDescription": "Cost Control tool for projects: to have satisfactory coverage of all operational Cost Control requirements: - Manage and control all forecasts and project costs - Ensure consistency with data in the financial reporting of the subsidiary of the considered project."
+    },
+    {
+        "dsoSolution": "SMI",
+        "dsoJustification": "Production efficiency",
+        "dsoShortDescription": "Data-based Standardization and digitalization of the maintenance procedures",
+        "dsoDomain": "SCMI"
+    },
+    {
+        "dsoDomain": "SCMI",
+        "dsoSolution": "DSO-R604",
+        "dsoJustification": "Production efficiency",
+        "dsoShortDescription": "Material Management Quality Control Tool (Tool to input Bill of Material into SAP for stock replenishment)"
+    },
+    {
+        "dsoDomain": "SCMI",
+        "dsoISServices": "DSO-R604",
+        "dsoSolution": "PTS",
+        "dsoJustification": "Safety Improvement",
+        "dsoShortDescription": "Digital verification and registration of all events related to personnel movements and site POB evolution. Centralized and real-time information management within the affiliate for logistics & HSE purposes"
+    },
+    {
+        "dsoISServices": "DSO-R404",
+        "dsoSolution": "SMILE SUP",
+        "dsoJustification": "SMILE SUPPORT AND MAINTENANCE",
+        "dsoShortDescription": "SMILE is a web-based tool that enables user to manage and follow up Laboratory activities. SMILE is mainly used by Laboratory representatives to manage their day\nto day activities:\n- Management of request for analysis.\n- Management of laboratory instruments - Management of laboratory personnel\n- Management of stocks\n- Management of laboratory methods",
+        "dsoDomain": "PPRM"
+    },
+    {
+        "dsoShortDescription": "Within Industrial Digital, Data Driven Asset Performance program supports implementation of data valorization projects by:\n\u2022 Launching projects, accelerating their delivery and bring them to\nsuccess\n\u2022 Supporting and communicating on existing (legacy) or developed by\nothers data valorization solutions\n\u2022 Supporting transformation (sustainability, change ways of working,\nbenefits tracking, data structuration...)",
+        "dsoDomain": "PPRM Digital",
+        "dsoSolution": "DDAP",
+        "dsoJustification": "Operations Efficiency"
+    },
+    {
+        "dsoISServices": "DSO-R413 DSO-P413",
+        "dsoSolution": "RMM",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Remote Metering Monitoring can be operated from HQ or affiliates when deployed.\nTo provide 4 levels of assistance for critical meters (technical \/ fiscal) Routine follow up:\n1\/ routine monitoring\n2\/ diagnosis of measurement anomalies\n3\/ Advanced follow-up, MPFM simulation, uncertainty calculations 4\/ Remote calibration, back-up values validation",
+        "dsoDomain": "PPRM"
+    },
+    {
+        "dsoISServices": "DSO-R411 DSO-P411",
+        "dsoSolution": "Monitoring Platform",
+        "dsoJustification": "Production efficiency - Turning raw data into actionable information",
+        "dsoShortDescription": "The monitoring platform allows achievement of two following objectives boosting operations efficiency :\n- Get automated surveillance of your installations (receive notifications, auto filled dashboards, events detection and historical management)\n- Explore data to provide live remote support, perform root cause analysis, identify planning opportunities and prepare future operations\n2 main advantages are\n- To standardize and capitalize the principles of monitoring platform between Affiliates\n- Monitoring Platform to take the best out of industrial data and transform raw data into actionable information",
+        "dsoDomain": "PPRM"
+    },
+    {
+        "dsoDomain": "PPRM",
+        "dsoISServices": "DSO-R607 DSO-P607",
+        "dsoSolution": "RAID*",
+        "dsoJustification": "Production efficiency",
+        "dsoShortDescription": "Remote Assistance Intervention & Diagnosis: for rotating equipment. Based on Smart signal solution. Service provided from HQ.\nRAID Center aims at: reducing unplanned production losses, reducing maintenance costs due to breakdowns, increasing unit availability and, of course, improving operations safety."
+    },
+    {
+        "dsoSolution": "TRECK",
+        "dsoJustification": "Performance Efficiency",
+        "dsoShortDescription": "New tool for travel management and expenses\nTravel module : online reservation and validation workflow Expense module : online capturing and validation workflow",
+        "dsoDomain": "HR and Finance\/Accoun ting"
+    },
+    {
+        "dsoISServices": "EMS-R103",
+        "dsoSolution": "RH4U",
+        "dsoJustification": "Efficiency",
+        "dsoShortDescription": "New group RH tool for data and career management. - My data\n- Annual Performance Review\n- Competencies\n- Training\n- HR4U is also the access point to other HR self-service applications available to employees (Vacation management, Careers Mobility, e-learning, etc.).\nAdded value :\nEmployees have access to all data relevant to them, and can use self-service functionality allowing them to become agents of their own HR development. Managers can better manage their teams and play a key role in employee\u2019s HR development\nAvailable in four languages.",
+        "dsoDomain": "HR"
+    },
+    {
+        "dsoShortDescription": "Replaces THEMIS application used by entities with a module of Cash Pooler (Datalog Finance application implemented in 2016 for Group Treasury) - A.B.C.T. project\nAdded value :\n\u00b7 Simplified supportable treasury IT landscape\n\u00b7 Increased user-friendly application\n\u00b7 Increased security in payment flows\n\u00b7 Improved performance on processing of direct debit payment files Account management simplified for users managing multiple entities\n\u00b7 Simplified supportable treasury IT landscape\n\u00b7 Increased user-friendly application\n\u00b7 Increased security in payment flows\n\u00b7 Improved performance on processing of direct debit payment files Account management simplified for users managing multiple entities",
+        "dsoDomain": "Finance \/ Treasury",
+        "dsoSolution": "THEMIS 2",
+        "dsoJustification": "Payment flows security Efficiency Performance"
+    },
+    {
+        "dsoShortDescription": "The \u201cLIFT project\u201d (also known as \u201cOffice 365 project\u201d) consists of deploying a new generation of communication and collaboration solutions within the Group using the Microsoft Office 365 cloud service, in order to:\n- Inspire a collaborative culture by allowing new ways of working,\n- Provide employees with effective digital tools to enable mobility, internal and external collaboration,\nAccelerate the transformation of IT foundations so that they can benefit from new technologies",
+        "dsoDomain": "Transverse IT",
+        "dsoSolution": "LIFT",
+        "dsoJustification": "Collaborative &mobility efficiency"
+    },
+    {
+        "dsoSolution": "UNISOL",
+        "dsoJustification": "Efficiency Performance",
+        "dsoShortDescription": "New common template based on SAP, in a single environment landscape, with harmonized business processes, for the management of Metier processes in the domains of\n\u2022 finance,\n\u2022 supply chain,\n\u2022 maintenance & inspection\nAdded value :\n- Harmonized template with IT savings\n- Capitalization of new functionalities for all entities",
+        "dsoDomain": "Transverse M\u00e9tiers"
+    },
+    {
+        "dsoShortDescription": "Web tool available on WAT to declare gifts, hospitality, donations and conflicts of interest",
+        "dsoDomain": "Integrity",
+        "dsoSolution": "E-REGISTER",
+        "dsoJustification": "Compliance"
+    },
+    {
+        "dsoShortDescription": "To manage and store exchanges between affiliates and HQ from Study initiation to Deliverables for Mono and Multi-disciplinary E&P studies. Key piece to support the E&P quality process.",
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "BEA V2.0",
+        "dsoJustification": "Efficient Study monitoring"
+    },
+    {
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "SAM*",
+        "dsoJustification": "Optimization of Geoscience & Reservoir study environment",
+        "dsoShortDescription": "Set of rules for Study environment organization: Hierarchy, Nomenclature and Access Right management in Windows and Linux environments.\nSAM solution embed following products:\n- Study environment creator (Windows \/ Linux) in conformity with Company Rules\n- Scan tool and reporting toolset around Study Environment Prerequisite: having MS Power BI (client package only)"
+    },
+    {
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "MASTER DATA MANAGEMENT (MDM) *",
+        "dsoJustification": "Transverse Data Management of all Business objects (Well, Field, Blocks or Seismic)",
+        "dsoShortDescription": "Master Data proposal around key Business Objects (Well, Field, Blocks or Seismic)\nThe affiliate can consume the data model managed and exposed by HQ Work on a copy with the tool and extend local Master Data Management activities\nService offer to be proposed in 2020"
+    },
+    {
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "Drop Site DATA GATE",
+        "dsoJustification": "transfer to HQ of Data acquired by affiliates (for loading in corporate DB and giving a rapid access for studies)",
+        "dsoShortDescription": "Web portal managing the workflow of Data Management requests: From the request to the storage into study environment and Corporate Data Stores (Well, Document & Seismic)."
+    },
+    {
+        "dsoJustification": "Give access to Geoscience & Reservoir E&P Data",
+        "dsoShortDescription": "Web portal designed to allow access to affiliate & corporate Geoscience & Reservoir databases and specialty databases.\nEureka is the Group tool that will allow to the affiliate to browse and access to its data sent and stored in HQ",
+        "dsoDomain": "Geoinformation",
+        "dsoSolution": "EUREKA"
+    },
+    {
+        "dsoJustification": "Operations Performance Production Performance",
+        "dsoShortDescription": "Database for WFT pressure data; Initial reservoir pressures from DST; interpreted Leak Off Test (LOT) or Pressure Integrity Test (PIT). It provides map based and text search engines, data preview with plotting and quick look analysis, and data export options.",
+        "dsoDomain": "Reservoir",
+        "dsoSolution": "PRESSURE DB"
+    },
+    {
+        "dsoSolution": "HERITAGE",
+        "dsoJustification": "Knowledge Management",
+        "dsoShortDescription": "A Geoscience and Reservoir Platform that is under development to simplify access to internal and external information.\n\u00b7 Improves the way we share and capitalize on our knowledge.\n\u00b7 Provides a common reference of key information (field summaries; key documents; 2G&R parameters; people; production data...)\nIs an accessible platform to permit contribution, analysis, comparison, analogy search, export...)",
+        "dsoDomain": "Reservoir",
+        "dsoISServices": "Explo-062"
+    },
+    {
+        "dsoSolution": "PRIME",
+        "dsoJustification": "Reserves Reporting",
+        "dsoShortDescription": "PRIME is the company\u2019s secure database for reserves reporting and management.\nIts use is described in GM EP RES 001 \u201cTechnical Guidelines for Evaluating Reserves and Contingent Resources\u201d",
+        "dsoDomain": "Reservoir"
+    },
+    {
+        "dsoDomain": "Reservoir",
+        "dsoISServices": "3G&R-R001",
+        "dsoSolution": "INTERSECT - REPLIX",
+        "dsoJustification": "Production Performance",
+        "dsoShortDescription": "Reservoir Simulation suite under development in a consortium with Schlumberger and Chevron. Intersect is the reservoir simulation code. This new generation code allows faster calculation as well as the implementation of features issued from our R&D.\nREPLIX is the in-house pre-processing code developed in TOTAL only."
+    },
+    {
+        "dsoShortDescription": "Reservoir & Production Optimization: Management of data used by reservoir engineers\u2019 activities. Implementation of production data analysis tools. Phase 1: Reservoir Master Database and BI tools;\nPhase 2: Production forecast tools and visualization.",
+        "dsoDomain": "Reservoir",
+        "dsoISServices": "Explo-061",
+        "dsoSolution": "T-MORE",
+        "dsoJustification": "Production Efficiency Production Performance"
+    },
+    {
+        "dsoShortDescription": "Tool for ongoing geophysical operations reporting. To be filled during operations. These information are transferred automatically to HQ for consolidation at EXPLO Scale.",
+        "dsoDomain": "Geophysics",
+        "dsoSolution": "GDR",
+        "dsoJustification": "Geophysical operations Data reporting"
+    },
+    {
+        "dsoSolution": "SHINE V.3",
+        "dsoJustification": "Derisking of Prospect",
+        "dsoShortDescription": "SHINE V.3 will evaluate the Direct Hydrocarbon Indicators robustness to better assess the Probability of Success.\nKey tool for Prospectivy assessment on TOTAL acreages and New Ventures",
+        "dsoDomain": "Geophysics"
+    },
+    {
+        "dsoJustification": "Seismic Acquisition parameters reporting",
+        "dsoShortDescription": "Capture and storage of seismic acquisition parameters to be transferred to HQ after completion",
+        "dsoDomain": "Geophysics",
+        "dsoSolution": "WEBSIS"
+    },
+    {
+        "dsoSolution": "WIKIWELL",
+        "dsoJustification": "Construction of Play maps and prospect evaluation",
+        "dsoShortDescription": "Wikiwell will be the Reference DB for interpreted wells in the 5 Explo regions (1 DB by region). Input for basin mastering & prospect evaluation, merge of pre- existing data base (PN Access, Gadama and Bridge) and constant update to be done.",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoShortDescription": "Reference core images data base in HQ for Geoscientists and reservoir engineers, possible visualization from affiliates (if requested). Access via EUREKA portal",
+        "dsoDomain": "Geology",
+        "dsoISServices": "EG&R-R007",
+        "dsoSolution": "ICAR",
+        "dsoJustification": "Give access to core imagery"
+    },
+    {
+        "dsoSolution": "SUBSURFACE QUALITY MONITORING TOOL BOX",
+        "dsoJustification": "Contractor Performance & cost reductions",
+        "dsoShortDescription": "Reference tool for the preparation of the well logging Subsurface Quality Meeting (SQM). Affiliates will have to feed SQMT with all information related to contractors services (performance & costs)",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoSolution": "GRAVITAS",
+        "dsoJustification": "Geological operations optimization",
+        "dsoShortDescription": "Well site Geology tool for drilling and geological parameters. It help managing the geological workflow and integrating with drilling.\nGravitas gives the flexibility to monitor, log, chart and report operations. Information held in the Gravitas database and capitalized in a real time process",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoSolution": "GEOX",
+        "dsoJustification": "Assessment of Explo resources Prospect evaluation",
+        "dsoShortDescription": "Prospect evaluation tool (Schlumberger), quantification of reservoir, fluid parameters and risking",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoSolution": "DRILL WORKS PREDICT",
+        "dsoJustification": "HSEQ\/Integrity management Cost Optimisation",
+        "dsoShortDescription": "Pore Pressure Prediction in HQ (Halliburton), such studies carried out for each well project. Mandatory in SOR process.\nDrill works Predict software, you can reliably forecast pore pressures to improve performance and avoid problems at all stages of the drilling cycle:\n- Pre-drill analysis optimizes mud weights and casing setting depths\n- Real-time analysis reduces uncertainty while drilling\u2022\n- Post-drill analysis improves planning and drilling performance in future wells",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoJustification": "Give access to petrophysical rock properties",
+        "dsoShortDescription": "CoreDB is a database with a flexible data model for importing, viewing, and managing core data. Numerical, textural, and image data is stored, covering all types of core data. CoreDB is the TOTAL data patrimonial data base in HQ. Access via EUREKA portal.",
+        "dsoDomain": "Geology",
+        "dsoSolution": "COREDB"
+    },
+    {
+        "dsoSolution": "GEOLOG",
+        "dsoJustification": "Formation evaluation",
+        "dsoShortDescription": "Well log reservoir evaluation Tool (Emerson). Advanced petrophysical analysis: multi-well, multi-user. Geolog applications work directly on data stored in our well corporate Data Base, including seismic (SISMAGE-CIG, PETREL) to simulation software.",
+        "dsoDomain": "Geology",
+        "dsoISServices": "3GR-R004 3GR-R024"
+    },
+    {
+        "dsoSolution": "DRILL WORKS PREDICT",
+        "dsoJustification": "HSEQ\/Integrity management Cost Optimisation",
+        "dsoShortDescription": "Pore Pressure Prediction in HQ (Halliburton), such studies carried out for each well project. Mandatory in SOR process.\nDrill works Predict software, you can reliably forecast pore pressures to improve performance and avoid problems at all stages of the drilling cycle:\n- Pre-drill analysis optimizes mud weights and casing setting depths\n- Real-time analysis reduces uncertainty while drilling\u2022\n- Post-drill analysis improves planning and drilling performance in future wells",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoSolution": "COREDB",
+        "dsoJustification": "Give access to petrophysical rock properties",
+        "dsoShortDescription": "CoreDB is a database with a flexible data model for importing, viewing, and managing core data. Numerical, textural, and image data is stored, covering all types of core data. CoreDB is the TOTAL data patrimonial data base in HQ. Access via EUREKA portal.",
+        "dsoDomain": "Geology"
+    },
+    {
+        "dsoSolution": "GEOLOG",
+        "dsoJustification": "Formation evaluation",
+        "dsoShortDescription": "Well log reservoir evaluation Tool (Emerson). Advanced petrophysical analysis: multi-well, multi-user. Geolog applications work directly on data stored in our well corporate Data Base, including seismic (SISMAGE-CIG, PETREL) to simulation software.",
+        "dsoDomain": "Geology",
+        "dsoISServices": "3GR-R004 3GR-R024"
+    },
+    {
+        "dsoISServices": "EXPLO-006",
+        "dsoSolution": "SISMAGE-CIG",
+        "dsoJustification": "INTERPRETATION: Seismic and Geological Interpretation efficiency Reservoir Integrated Platform GEOMODELLING: Static Field evaluation Build a consistent Geomodel; Including uncertainties; Reservoir pre & post- processing) Production Performance",
+        "dsoShortDescription": "Sismage-CIG is the in-house Geoscience & Reservoir Integrated Platform. Aimed at providing an integrated environment for all geoscientist and reservoir engineers, the benefits are multi-fold:\n\u00b7 Acceleration of the EXPLO and DEVELOPMENT studies\n\u00b7 Faster incorporation of R&D products in operations\n\u00b7 Capacity of rapidly providing tailor-make developments for specific operational needs\nSismage-CIG covers the data management, interpretation and geomodelling needs of the geoscientists but not yet a full suite of tools for RESERVOIR ENGINNEERS.",
+        "dsoDomain": "Geology & Geophysics, Reservoir"
+    },
+    {
+        "dsoShortDescription": "Collaborative groupware solution to share information with internal or external partners for Interface Tasks Management, Quality Inspections Management (QA\/QC) and Clarifications",
+        "dsoDomain": "IA",
+        "dsoISServices": "DSO-R303",
+        "dsoSolution": "e-ROOM",
+        "dsoJustification": "Production Efficiency"
+    },
+    {
+        "dsoISServices": "DSO-R301 DSO-R302",
+        "dsoSolution": "New PRODOM",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Electronic Technical Documents Management System (ETDMS) for E&P Projects and Operations, based on the Total E&P referential CR EP PJC 004 and GS PJC 701 702 703",
+        "dsoDomain": "IA"
+    },
+    {
+        "dsoSolution": "QUANTUM",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Provide a Digital Twin for new physical assets in order to:\n- Accelerate studies, Projects delivery and ease information hand over\n- Offer a single, easy access to relevant, contextualized and up-to-date information to multi-discipline users anywhere anytime to make fact-based decisions, increase safety awareness and reduce costs in Operations preparation and execution phases\n- Manage assets technical information along their lifecycle in a collaborative way (internally and externally) in order to increase efficiency and quality while reducing costs.",
+        "dsoDomain": "IA Digital"
+    },
+    {
+        "dsoISServices": "DSO-R412",
+        "dsoSolution": "IOP",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Integrated Operational Planning: Solution based on Primavera. Refer to CR EP DEV 003.",
+        "dsoDomain": "IA"
+    },
+    {
+        "dsoSolution": "UCOST V2",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Cost Control tool for projects.",
+        "dsoDomain": "IA"
+    },
+    {
+        "dsoJustification": "Real Time Support Center for drilling & wells. Service provided by HQ.",
+        "dsoShortDescription": "W&P",
+        "dsoDomain": "Operating affiliates",
+        "dsoISServices": "Production Efficiency",
+        "dsoSolution": "Wells Construction Efficiency"
+    },
+    {
+        "dsoISServices": "RTSC*",
+        "dsoSolution": "DrillX",
+        "dsoJustification": "Wells Construction Efficiency",
+        "dsoShortDescription": "RT monitoring\/analysis, optimization, and prediction of risks.",
+        "dsoDomain": "W&P Digital"
+    },
+    {
+        "dsoShortDescription": "T-DESK: Engineering tool for well design and operations.\nWELLMAP: Corporate Drilling & wells Trajectory database: data base allowing to store and share the trajectories of the field between HQ and Affiliates. Refer to CR EP FP 415.\nWELLVIEW: Corporate Well Register, used for reporting Drilling & Wells operations (including well intervention and well integrity) as well as final well architectures, well statuses, etc.\nRUSHMORE: Drilling Benchmarking providing access to worldwide data coming from Total and the vast majority of International Operators",
+        "dsoDomain": "W&P",
+        "dsoISServices": "DSO-5201",
+        "dsoSolution": "T-DESK WELLMAP WELLVIEW RUSHMORE",
+        "dsoJustification": "Wells Construction Efficiency"
+    },
+    {
+        "dsoISServices": "DSO-R409",
+        "dsoSolution": "e-PERMIT",
+        "dsoJustification": "Safety Improvement",
+        "dsoShortDescription": "Objective is to lower the occurrence and severity of accidents and incidents on operational sites with a better preparation of interventions. The solution will improve the management of work permits issued, the quality of the risk analysis and of the recommendation of compensatory measures.",
+        "dsoDomain": "HSEQIS"
+    },
+    {
+        "dsoISServices": "DSO-R407",
+        "dsoSolution": "WIMT",
+        "dsoJustification": "HSEQ\/Integrity management",
+        "dsoShortDescription": "Well Integrity Management Tool to follow-up actions related to well integrity and calculate resulting well integrity status (surveillance of internal and external envelops and annuli).\nRefer to CR EP EXP 432.",
+        "dsoDomain": "HSEQIS"
+    },
+    {
+        "dsoJustification": "Safety improvement",
+        "dsoShortDescription": "Manage the Critical Element of the installations with specific focus on them to improve HSE.",
+        "dsoDomain": "SCMI",
+        "dsoSolution": "SECE"
+    },
+    {
+        "dsoDomain": "SCMI Digital",
+        "dsoISServices": "DSO-R608",
+        "dsoSolution": "TIM",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "TIM (TOTAL Industrial Mobility), an EP-RC-MS transverse program, provides mobile applications to support and enhance the execution of operational tasks on site"
+    },
+    {
+        "dsoJustification": "Production Efficiency & Lean Management",
+        "dsoShortDescription": "Supply Chain & Operations Tracking (SCOT). Develop and deploy a mobile asset tracking solution in E&P affiliates using\nAutomatic Identification & Data Capture (AIDC) which connects to existing SAP\nmodules.",
+        "dsoDomain": "SCMI",
+        "dsoISServices": "DSO-R604",
+        "dsoSolution": "SCOT"
+    },
+    {
+        "dsoISServices": "DSO-R402",
+        "dsoSolution": "ICAPS",
+        "dsoJustification": "Operations Efficiency",
+        "dsoShortDescription": "Commissioning activities according to the OPERCOM\u00ae methodology.\nRefer to CR EP PJC 801\/ CR EP PJC 311.",
+        "dsoDomain": "SCMI"
+    },
+    {
+        "dsoDomain": "SCMI",
+        "dsoISServices": "DSO-R403",
+        "dsoSolution": "1RBI",
+        "dsoJustification": "Production Efficiency & Safety Improvement",
+        "dsoShortDescription": "Risk Based Inspection: Ensure\/improve the identification of the criticality of pressure devices and evaluate risks associated with pipelines and jackets to propose and optimize inspection plans and monitoring strategy.\nRefer to CR EP EXP 310 \/ CR EP EXP 400 \/ GS EP EXP 311."
+    },
+    {
+        "dsoSolution": "SMART rooms",
+        "dsoJustification": "Production efficiency",
+        "dsoShortDescription": "Support and Monitoring of asset in real time with experts and multidisciplinary teams. Refer to GM EP OPS 004.",
+        "dsoDomain": "PPRM Digital",
+        "dsoISServices": "DSO-R502 DSO-P502"
+    },
+    {
+        "dsoShortDescription": "GAP: software provides multiphase network modelling and optimization. It takes PPRM into account the multiphase network response of multiple wells (with different\nPVT) producing into a common production system, where the response of one well\nwould affect the production of another (i.e. back pressure response).\nPROSPER: Multiphase well and pipeline nodal analysis. Used for well completions design, outflow (VLP) modelling, inflow (IPR) modelling for nodal analysis, thermal modelling and flow assurance amongst others.\nRESOLVE is a platform that enables the link between any application (any vendor) that describes part of the system (from reservoir to point of delivery) to other software that describe another part of the system, in a dynamic and fully integrated fashion. Reservoir simulators can therefore be connected to well models, surface facilities, process etc.",
+        "dsoDomain": "PPRM",
+        "dsoISServices": "DSO-R204",
+        "dsoSolution": "IPM SUITE (GAP, PROSPER, RESOLVE)",
+        "dsoJustification": "Production efficiency"
+    },
+    {
+        "dsoSolution": "DOF (IFM-IVM-Model Catalog)",
+        "dsoJustification": "Production efficiency Production Performance",
+        "dsoShortDescription": "DOF enhances well performance with on line Field Management Workflow Platform based on IFM (Integrated Field and Operational Management), IVM (results visualization) and Model Catalog (versioning) to support engineering and operations. This delivers on-line production expert systems with off-line or on- line advisory systems for production environments, models auditing and tracking, including user privilege and ownership control of production models in a central database.",
+        "dsoDomain": "PPRM",
+        "dsoISServices": "DSO-P416 DSO-R416"
+    },
+    {
+        "dsoISServices": "DSO-R607 DSO-P607",
+        "dsoSolution": "RAID*",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "Remote Assistance Intervention & Diagnosis: for rotating equipment. Based on Smart signal solution. Service provided by HQ.\nRAID Center aims at: reducing unplanned production losses, reducing maintenance costs due to breakdowns, increasing unit availability and, of course, improving operations safety",
+        "dsoDomain": "PPRM"
+    },
+    {
+        "dsoSolution": "Real Time Data Management System (RTDMS)",
+        "dsoJustification": "Production Efficiency",
+        "dsoShortDescription": "As key element of the real time data management, the PI System consistency appears as strategic within the context of the production optimization, the deployment and the functioning of corporate monitoring applications: Field monitoring, PDMS, DOF, RAID, Monitoring platform...",
+        "dsoDomain": "PPRM",
+        "dsoISServices": "DSO-P405 DSO-R405"
+    },
+    {
+        "dsoJustification": "Compliance and production performance",
+        "dsoShortDescription": "Official production reporting to HQ",
+        "dsoDomain": "PPRM",
+        "dsoISServices": "DSO-R408",
+        "dsoSolution": "FORS"
+    },
+    {
+        "dsoISServices": "DSO-R408 DSO-P408",
+        "dsoSolution": "NPDMS",
+        "dsoJustification": "Production Efficiency Production Performance",
+        "dsoShortDescription": "Production Data Management System\n\u00b7 Integrated and standard solution (Energy Component) deployed in all operating affiliates.\n\u00b7 Cover all business requirements regarding production data management\n\u00b7 Enhance business efficiency : Data quality \/ validation, Cross functional interfaces (Well Performance (IFM), Reservoir (T-More), Finance, Focus on production optimization (POP recommendations), Compliance with SOX control Refer to CR EP EXP 100",
+        "dsoDomain": "PPRM"
+    }
+]

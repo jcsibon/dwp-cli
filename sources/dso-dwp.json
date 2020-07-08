@@ -1,0 +1,672 @@
+[
+	{
+		"id": "5e4ab74355aac40007329857",
+		"name": "MyTuto",
+		"dsoCode": "TIM"
+	},
+	{
+		"id": "5e3022d57474960006f6cf7d",
+		"name": "anapest",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045370",
+		"name": "ATCO drones",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804536f",
+		"name": "CAPTUR",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045369",
+		"name": "Collaborative Environments (CE)",
+		"dsoCode": "SMART rooms"
+	},
+	{
+		"id": "5dceab7f5957a50008045359",
+		"name": "Cyclic Wells Smart Alerting",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a50008045389",
+		"name": "D&W KNOWLEDGE PORTAL",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045379",
+		"name": "DAS/DTS wells and pipelines",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045374",
+		"name": "DB17 Crane Dashboard",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3d87c5d34f5b00068c2498",
+		"name": "Deepwater Reference Book",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e136199d862c600069973e3",
+		"name": "Digtial reference book",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045357",
+		"name": "DRALL R",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a5000804535c",
+		"name": "DRILLX",
+		"dsoCode": "DrillX"
+	},
+	{
+		"id": "5e0219d4d862c600069973db",
+		"name": "DW-Prodig",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804534b",
+		"name": "Ensemble History Matching (EnHM)",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e1db24901017a00063c502d",
+		"name": "Eridani",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e54ec63b3f7660006474837",
+		"name": "Eridani",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804537c",
+		"name": "Eureka",
+		"dsoCode": "EUREKA"
+	},
+	{
+		"id": "5dceab7f5957a50008045376",
+		"name": "Finito",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045377",
+		"name": "FPSO Virtual Tour",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804537d",
+		"name": "FRF: Fast reservoir Forecaster",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804537e",
+		"name": "GAIA  ASSISTED DOCUMENT MINING",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804537f",
+		"name": "GAIA ASSISTED SEISMIC INTERPRETATION",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045373",
+		"name": "GIS Transverse",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045372",
+		"name": "Helper",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045380",
+		"name": "HERITAGE  FIELDBOOK",
+		"dsoCode": "HERITAGE"
+	},
+	{
+		"id": "5dceab7f5957a50008045352",
+		"name": "I-ALERT",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a50008045375",
+		"name": "I-OBEYA",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045385",
+		"name": "I-WIT",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045381",
+		"name": "IAM",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045378",
+		"name": "Integrated Activity Planner 2.0",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045382",
+		"name": "Intersect",
+		"dsoCode": "INTERSECT - REPLIX"
+	},
+	{
+		"id": "5dceab7f5957a50008045388",
+		"name": "IQ-ALL",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e37eeeda54d9a00063c4c28",
+		"name": "Issue tracker",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e54ec63b3f7660006474836",
+		"name": "Kypsafe",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045356",
+		"name": "Master",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a50008045383",
+		"name": "MATRIX",
+		"dsoCode": "MATRIX *"
+	},
+	{
+		"id": "5e15a58484c395000a434e30",
+		"name": "METIS",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3022d57474960006f6cf7b",
+		"name": "MILESTONES",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804535d",
+		"name": "MyNotif",
+		"dsoCode": "TIM"
+	},
+	{
+		"id": "5dceab7f5957a50008045361",
+		"name": "MyRoute",
+		"dsoCode": "TIM"
+	},
+	{
+		"id": "5dceab7f5957a50008045360",
+		"name": "MySafety",
+		"dsoCode": "TIM"
+	},
+	{
+		"id": "5dceab7f5957a5000804535e",
+		"name": "MyShift",
+		"dsoCode": "TIM"
+	},
+	{
+		"id": "5dceab7f5957a5000804535f",
+		"name": "MySupport",
+		"dsoCode": "TIM"
+	},
+	{
+		"id": "5e15abea84c395000a434e31",
+		"name": "NADAH",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3022d57474960006f6cf7c",
+		"name": "NEWPRODOM",
+		"dsoCode": "New PRODOM"
+	},
+	{
+		"id": "5e54ec63b3f7660006474833",
+		"name": "NPDMS",
+		"dsoCode": "NPDMS"
+	},
+	{
+		"id": "5e54ec63b3f7660006474835",
+		"name": "One stock",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045362",
+		"name": "One.Sight",
+		"dsoCode": "QUANTUM"
+	},
+	{
+		"id": "5e159ad9d862c600069973e4",
+		"name": "OneClick Portal",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e55069fb3f7660006474839",
+		"name": "OPERATIONS KPIS DASHBOARD",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804534c",
+		"name": "OPSEALOG",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804535a",
+		"name": "Petro",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5e3022d57474960006f6cf7e",
+		"name": "PETROVR",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045355",
+		"name": "PIAF",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5e3022d57474960006f6cf7f",
+		"name": "PRIMAVERA EP",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3022d57474960006f6cf80",
+		"name": "PRIMAVERA RISK ANALYSIS",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045351",
+		"name": "PRISM",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a5000804535b",
+		"name": "Production Shortfalls Visualization",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a50008045358",
+		"name": "PROESIS (CBE)",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a5000804534d",
+		"name": "Prospect Digital Evaluation Tool",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e2febea7474960006f6cf77",
+		"name": "QA/QC METERING",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e550631b3f7660006474838",
+		"name": "Quest",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3022d57474960006f6cf81",
+		"name": "QUESTOR",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804536e",
+		"name": "Remote Assistance  Realwear + HPE MyRoom",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045384",
+		"name": "REPLIX",
+		"dsoCode": "INTERSECT - REPLIX"
+	},
+	{
+		"id": "5dceab7f5957a5000804536a",
+		"name": "RTFLD",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804538a",
+		"name": "RTSC",
+		"dsoCode": "RTSC*"
+	},
+	{
+		"id": "5e136176d862c600069973e2",
+		"name": "SCOT",
+		"dsoCode": "SCOT"
+	},
+	{
+		"id": "5e54ec63b3f7660006474832",
+		"name": "SCOT",
+		"dsoCode": "SCOT"
+	},
+	{
+		"id": "5e54ec63b3f7660006474831",
+		"name": "Shiny deepwater",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804538c",
+		"name": "SISMAGE CIG GEOLOGICAL MODELLING",
+		"dsoCode": "SISMAGE-CIG"
+	},
+	{
+		"id": "5dceab7f5957a5000804538b",
+		"name": "SISMAGE CIG GEOPHYSICS",
+		"dsoCode": "SISMAGE-CIG"
+	},
+	{
+		"id": "5dceab7f5957a50008045386",
+		"name": "SISMAGE CIG RESERVOIR ENGINEERING",
+		"dsoCode": "SISMAGE-CIG"
+	},
+	{
+		"id": "5e54ec63b3f7660006474834",
+		"name": "Skipe",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045353",
+		"name": "Smart Signal",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a5000804534e",
+		"name": "Subsea Condition Monitoring",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804534f",
+		"name": "Subsea Design Tool",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045350",
+		"name": "System 1, Prognost & Setpoint",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5dceab7f5957a50008045387",
+		"name": "T-Desk",
+		"dsoCode": "T-DESK WELLMAP WELLVIEW RUSHMORE"
+	},
+	{
+		"id": "5dceab7f5957a5000804537b",
+		"name": "T-More",
+		"dsoCode": "T-MORE"
+	},
+	{
+		"id": "5e3022d57474960006f6cf83",
+		"name": "T-REX",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e159b2fd862c600069973e5",
+		"name": "TADI (Trasnverse Anomaly Detection Intitatives)",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804537a",
+		"name": "TAS",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3022d57474960006f6cf82",
+		"name": "TECHNOBASE",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804536d",
+		"name": "Traxxs  X-SOLES",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a50008045354",
+		"name": "Trendminer",
+		"dsoCode": "DDAP"
+	},
+	{
+		"id": "5e3022d57474960006f6cf84",
+		"name": "UCOST V2",
+		"dsoCode": "UCOST V2"
+	},
+	{
+		"id": "5dceab7f5957a50008045371",
+		"name": "Ultrasonic Tech. Camera for gas leak detection",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3022d57474960006f6cf85",
+		"name": "UNIK",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3022d57474960006f6cf86",
+		"name": "VIEW2PERFORM",
+		"dsoCode": ""
+	},
+	{
+		"id": "5e3022d57474960006f6cf87",
+		"name": "WEB DEROGATIONS",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804536b",
+		"name": "Wireless Pressure & Temperature transmitters (Long Range)",
+		"dsoCode": ""
+	},
+	{
+		"id": "5dceab7f5957a5000804536c",
+		"name": "XP-DIGIT - KYPSAFE",
+		"dsoCode": ""
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474864",
+		"name":"Integrated Commissioning And Progress System (ICAPS)",
+		"dsoCode": "ICAPS"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474865",
+		"name":"1RBI",
+		"dsoCode": "1RBI"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474866",
+		"name":"Smile",
+		"dsoCode": "SMILE SUP"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474867",
+		"name":"Real Time Data Management System (RTDMS)",
+		"dsoCode": "Real Time Data Management System (RTDMS)"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474868",
+		"name":"E-Permit",
+		"dsoCode": "e-PERMIT"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474869",
+		"name":"Monitoring platform",
+		"dsoCode": "Monitoring Platform"
+	},
+	{
+		"id":"5e5d2b4ab3f766000647486a",
+		"name":"RMM",
+		"dsoCode": "RMM"
+	},
+	{
+		"id":"5e5d2b4ab3f766000647486b",
+		"name":"DOF (Digital Oil Field)",
+		"dsoCode": "DOF (IFM-IVM-Model Catalog)"
+	},
+	{
+		"id":"5e5d2b4ab3f766000647486c",
+		"name":"Remote Assistance Intervention & Diagnosis (RAID)",
+		"dsoCode": "RAID"
+	},
+	{
+		"id":"5e5d2b4ab3f766000647486d",
+		"name":"Field Operation Reporting System (FORS)",
+		"dsoCode": "FORS"
+	},
+	{
+		"id":"5e5d2b4ab3f766000647486e",
+		"name":"IPM SUITE (GAP, PROSPER, RESOLVE)",
+		"dsoCode": "IPM SUITE (GAP, PROSPER, RESOLVE)"
+	},
+	{
+		"id":"5e5d2b4ab3f766000647486f",
+		"name":"Well Integrity Management Tool (WIMT)",
+		"dsoCode": "WIMT"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474870",
+		"name":"Integrated Operations Planning (IOP)",
+		"dsoCode": "IOP"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474871",
+		"name":"e-ROOM",
+		"dsoCode": "e-ROOM"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474872",
+		"name":"GEOLOG",
+		"dsoCode": "GEOLOG"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474873",
+		"name":"ICAR",
+		"dsoCode": "ICAR"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474874",
+		"name":"PTS",
+		"dsoCode": "PTS"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474875",
+		"name":"PETREL RE",
+		"dsoCode": "PETREL RE"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474876",
+		"name":"T-SLICE",
+		"dsoCode": "T-SLICE"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474877",
+		"name":"EMERAUDE",
+		"dsoCode": "KAPPA EMERAUDE & KAPPA SAPHIR"
+	},
+	{
+		"id":"5e5d2b4ab3f7660006474878",
+		"name":"EST",
+		"dsoCode": "PIE & EST"
+	},
+	{
+		"id":"5e5f885eb3f7660006474879",
+		"name":"UNISOL",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5e5fdc19b3f766000647487b",
+		"name":"TECHNOBASE",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5e84bf518c95ad65cd7f131b",
+		"name":"EP Interactive Patrimonial Map",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5e874eab8c95ad65cd7f131c",
+		"name":"PSV CAPS",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5e874f448c95ad65cd7f131d",
+		"name":"Da-Winci",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5e970a86171ea00eb1cdf4d1",
+		"name":"PIE",
+		"dsoCode": "PIE & EST"
+	},
+	{
+		"id":"5e97197e171ea00eb1cdf4d2",
+		"name":"T-Cemint",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5e99a3e5171ea00eb1cdf4d3",
+		"name":"ENTER",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5ea166077ee22c477cdfafbb",
+		"name":"SAPHIR",
+		"dsoCode": "KAPPA EMERAUDE & KAPPA SAPHIR"
+	},
+	{
+		"id":"5ea2a7b77ee22c477cdfafbc",
+		"name":"DIGIREF",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5ebd389f7ee22c477cdfafbd",
+		"name":"One.Model",
+		"dsoCode": "QUANTUM"
+	},
+	{
+		"id":"5ebd3af57ee22c477cdfafbe",
+		"name":"One.Pulse",
+		"dsoCode": "QUANTUM"
+	},
+	{
+		"id":"5ebd3d3f7ee22c477cdfafbf",
+		"name":"Digital Twin Creation",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5ec7ca4f7ee22c477cdfafc0",
+		"name":"TOTAL XIOT PLATFORM",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5ec7d5a27ee22c477cdfafc1",
+		"name":"Connected Pressure Gauge",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5ed107f57ee22c477cdfafc2",
+		"name":"Well Operating Envelope",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5ed109c37ee22c477cdfafc3",
+		"name":"Inhibition Management",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5ee32fa17ee22c477cdfafce",
+		"name":"DEEPSHARING (R2MSHARING) HERITAGE",
+		"dsoCode": "TODO"
+	},
+	{
+		"id":"5eecaee67ee22c477cdfafcf",
+		"name":"TLE Fouling Predictor",
+		"dsoCode": "TODO"
+	}
+]
