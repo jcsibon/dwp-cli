@@ -1,3 +1,4 @@
+#! /c/local/php/php.exe
 <?php
 ini_set('date.timezone','Europe/Paris');
 
@@ -6,11 +7,19 @@ class DwpCli
 	public $token;
 	public $data;
 	public $today;
+	public $debug;
 
     public function __construct()
     {
-		$this->token = str_replace("Authorization: bearer ", "", json_decode(file_get_contents("token.txt"), true)['access_token']);
+		$this->dirname = dirname(__FILE__);
+		$this->token = str_replace("Authorization: bearer ", "", json_decode(file_get_contents($this->dirname.DIRECTORY_SEPARATOR."token.txt"), true)['access_token']);
 		$this->today = new DateTime();
+		$this->debug = false;
+
+		if($this->debug)
+		{
+			error_reporting(E_ALL);
+		}
     }
 
     public function runCommand($argv)
@@ -28,7 +37,7 @@ class DwpCli
 
 	    	switch ($query[0]) {
 	    		case 'token':
-	    			file_put_contents("token.txt", $query[1]);
+	    			file_put_contents($this->dirname.DIRECTORY_SEPARATOR."token.txt", $query[1]);
 	    			break;
 	    		case 'dashboard':
 	    			$this->dashboard();
@@ -58,7 +67,7 @@ class DwpCli
 							print_r($this->get($query[0],$query[2]));
 							break;
 						case 'getAll':
-							print_r($this->data);
+							print_r($this->getAll($query[0]));
 							break;
 						case 'create':
 							print_r($this->submit($query[0], "", $subArgs));
@@ -169,6 +178,34 @@ class DwpCli
 
 		}
 		return $object;
+
+		//        "dsoSolution": "string",
+		//        "dsoShortDescription": "string",
+		//        "dsoDomain": "string",
+		//        "dsoMandatoryFor": "string",
+		//        "dsoRecommandedFor": "string",
+		//        "dsoMandatoriness": "string",
+		//        "isbPOSLocation": "string",
+		//        "isbTypeAfe": "string",
+		//        "isbCostControlContact": "string",
+		//        "isbServiceDescription": "string",
+		//        "isbAdded": "string",
+		//        "isbPrerequisites": "string",
+		//        "isbExcludedElements": "string",
+		//        "isbUsageConditions": "string",
+		//        "isbOrganisation": "string",
+		//        "isbAssistance": "string",
+		//        "isbSolution": "string",
+		//        "isbCode": "string",
+		//        "dsoISServices": "stringList",
+		//        "dsoJustification": "stringList",
+		//        "isbServiceOwner": "userArray",
+		//        "isbFunctionalCoordinator": "userArray",        
+		//        "isbITCoordinator": "userArray",
+		//        "isbResponsibleEntity": "userArray",        
+		//        "isbInvoicing": "unknown",
+
+
 	}
 
 	public function parseUser($object)
@@ -182,9 +219,10 @@ class DwpCli
 		return $object;
 	}
 
-    public function buildCurl($uri, $post = array())
+   public function buildCurl($uri, $post = array())
     {
-		echo "curl ".$uri.PHP_EOL;
+
+		$curl = "curl https://qlf.api.apollo.total/prodig-qlf/api/".$uri.PHP_EOL;
 
 		$ch = curl_init();
 
@@ -216,6 +254,11 @@ class DwpCli
 			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
 		}
 
+		if($this->debug)
+		{
+			curl_setopt($ch, CURLOPT_VERBOSE, '1');
+		}
+
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
 		$result = curl_exec($ch);
@@ -231,7 +274,7 @@ class DwpCli
 		if(isset($result['fault']['faultstring']))
 			die($result['fault']['faultstring'].PHP_EOL);
 
-		print_r($result);
+		// print_r($result);
 		return $result;
     }
 
@@ -255,7 +298,7 @@ class DwpCli
     public function getAll($object)
     {
     	$getAllData = array_values($this->buildCurl($object));
-    	file_put_contents("history/".$this->today->format('Y-m-d-Hi')."-".$object.".json", json_encode($getAllData,JSON_PRETTY_PRINT));
+    	file_put_contents($this->dirname.DIRECTORY_SEPARATOR."history/".$this->today->format('Y-m-d-Hi')."-".$object.".json", json_encode($getAllData,JSON_PRETTY_PRINT));
     	return $getAllData;
     }
 
@@ -271,15 +314,13 @@ class DwpCli
     		}
     	}
     	$this->data = array_values($this->data);
-    	
-    	file_put_contents("temp.json", json_encode($this->data, JSON_PRETTY_PRINT));
     	return $this->buildCurl($object."/addAll", $this->data);
     }
 
     public function submitAll($object, $data)
     {
-        // TODO
-    	$this->buildCurl($object."/addAll", $data);
+    	file_put_contents($this->dirname.DIRECTORY_SEPARATOR."temp.json", json_encode($data,JSON_PRETTY_PRINT));
+    	return $this->buildCurl($object."/addAll", $data);
     }
 
     public function delete($object, $id)
@@ -294,7 +335,6 @@ class DwpCli
     		}
     	}
     	$data = array_values($data);
-//    	$this->printList($data);
     	echo "Suppression de la base".PHP_EOL;
     	$this->deleteAll($object);
     	echo "Soumission de la base modifiée".PHP_EOL;
@@ -305,26 +345,72 @@ class DwpCli
     public function deleteAll($object)
     {
     	print_r($this->buildCurl($object."/deleteAll"));
-    	echo "yo".PHP_EOL;
     }
 
     public function updateSources()
     {
-    	foreach(["dso"] as $source)
+		$inputs = array();
+
+    	foreach(["dso","isb"] as $source)
     	{
     		$sources[$source] = array();
-			foreach(file_get_contents("sources/".$source.".json") as $items)
+			foreach(json_decode(file_get_contents("sources/".$source.".json"),true) as $item)
 			{
+				$sources[$source][$item["id"]] = $item;
+			}
+			// print_r($sources);
 
+			foreach(json_decode(file_get_contents("sources/".$source."-dwp.json"),true) as $item)
+			{
+				foreach($item['sourceItems'] as $sourceItem)
+				{
+					if(isset($sources[$source][$sourceItem]))
+					{
+						if(isset($inputs[$item['id']]))
+							$inputs[$item['id']] = array_merge($inputs[$item['id']], $sources[$source][$sourceItem]);
+						else
+							$inputs[$item['id']] = $sources[$source][$sourceItem];
+
+						unset($inputs[$item['id']]['id']);					
+					}
+				}
 			}
     	}
-		$data = $this->buildCurl("solution");
-		foreach($data as $key => $solution)
-		{
+    	// print_r($inputs);
 
+
+		$newData = $this->buildCurl("solution");
+
+		foreach($newData as $key => $solution)
+		{
+			if(isset($inputs[$solution['id']]) && count($inputs[$solution['id']]))
+			{
+				foreach ($inputs[$solution['id']] as $subKey => $value) 
+				{
+					if(array_key_exists($subKey, $solution))
+					{
+						$solution[$subKey] = $value;
+						// echo $subKey.PHP_EOL;
+					}
+				}
+			}
+
+			if((!isset($solution["whyDescr"]) || !strlen($solution["whyDescr"])) && strlen($solution["isbAdded"]))
+			{
+				$solution["whyDescr"] = $solution["isbAdded"].PHP_EOL;
+			}
+			if((!isset($solution["whatDescr"]) || !strlen($solution["whatDescr"])) && strlen($solution["dsoShortDescription"]))
+			{
+				$solution["whatDescr"] = $solution["dsoShortDescription"].PHP_EOL;
+			}
+
+			$newData[$key] = $solution;
 		}
+		// file_put_contents($this->dirname.DIRECTORY_SEPARATOR."temp.json", json_encode($newData,JSON_PRETTY_PRINT));
+		// die();
+		// die(json_encode(array_values($newData), JSON_PRETTY_PRINT));
 		$this->deleteAll("solution");
-		$this->submitAll($data);
+		$this->submitAll("solution",$newData);
     }
 
     public function enrichUser($user)
@@ -335,6 +421,8 @@ class DwpCli
 			$user['lastActivity'] = $user['firstLogin'];
 		else
 			$user['lastActivity'] = new DateTime(end($user['lastSolutionsViewed'])['date']);
+
+
 
 	    // echo $user['igg']."\t".$user['firstName']."\t".$user['lastName']."\t".$user['mail']."\t".$user['sigle']."\t".$user['firstLogin']->format("Y-m-d H:i")."\t".$user['lastActivity']->format("Y-m-d H:i").PHP_EOL;
     	return $user;
@@ -400,8 +488,8 @@ class DwpCli
 	    }
 	    $solution['completion'] = round($solution['completion'] / count($scoreSheet) * 100, 0)." %";
 
-	    if($solution['completion'] == "20 %" || $solution['completion'] == "40 %" || $solution['completion'] == "60 %")
-	        echo $solution['completion']."\t".$solution['productOwners'][0]['mail']."\t".$solution['name']." x DW-PRODIG".PHP_EOL;
+//	    if($solution['completion'] == "20 %" || $solution['completion'] == "40 %" || $solution['completion'] == "60 %")
+//	        echo $solution['completion']."\t".$solution['productOwners'][0]['mail']."\t".$solution['name']." x DW-PRODIG".PHP_EOL;
 
 
 		return $solution;
@@ -422,7 +510,6 @@ class DwpCli
 
 		foreach($this->getAll("solution") as $solution)
 		{
-			echo $solution['id'].PHP_EOL;
 			$solution = $this->enrichSolution($solution);
 
 		    if(!isset($solutionsCompletionCount[strval($solution['completion'])]))
@@ -458,6 +545,7 @@ class DwpCli
 		$report.= "  </head>".PHP_EOL;
 		$report.= "  <body>".PHP_EOL;
 		$report.= "  <div class=\"container-fluid\">".PHP_EOL;
+		$report.= "  <img class=\"img-fluid\" src=\"https://totalworkplace.sharepoint.com/sites/dw-prodig/Assets/banner.png\">".PHP_EOL;
 		$report .= "<h1 class=\"pt-3 pb-1 text-center\">Statistiques DW-PRODIG au ".$this->today->format('j M Y')."</h1>".PHP_EOL;
 		$report .= "<p>Nombre de fiches : ".number_format(count($solutions),0,","," ")."</p>".PHP_EOL;
 		// $report .= "<p>Nombre de fiches publiées : ".number_format(count($draftSolutions),0,","," ")."</p>".PHP_EOL;
@@ -469,7 +557,7 @@ class DwpCli
 		$report .= "<p>Nombre de fiches - Informations de base 0% : ".$solutionsCompletionCount["0 %"]."</p>".PHP_EOL;
 		$report .= "<p></p>".PHP_EOL;
 		$report .= "<p>Nombre d'utilisateurs : ".number_format($connectedUsersCount,0,","," ")."</p>".PHP_EOL;
-		$report .= "<p>Nombre d'utilisateurs connectés au cours des ".$days." derniers jours : ".number_format($lastSignedInUsersCount,0,","," ")."</p>".PHP_EOL;
+		// $report .= "<p>Nombre d'utilisateurs connectés au cours des ".$days." derniers jours : ".number_format($lastSignedInUsersCount,0,","," ")."</p>".PHP_EOL;
 		$report .= "<ul class=\"nav nav-tabs\" id=\"myTab\" role=\"tablist\">".PHP_EOL;
 		$report .= "  <li class=\"nav-item\">".PHP_EOL;
 		$report .= "    <a class=\"nav-link active\" id=\"solutions-tab\" data-toggle=\"tab\" href=\"#solutionsTab\" role=\"tab\" aria-controls=\"solutionsTab\" aria-selected=\"true\">Solutions</a>".PHP_EOL;
@@ -580,13 +668,10 @@ class DwpCli
 		$report.= "  </body>".PHP_EOL;
 		$report.= "</html>".PHP_EOL;
 
-		file_put_contents("reports/dwp-".$this->today->format('Y-m-d-Hi').".html", $report);
-		exec("open reports/dwp-".$this->today->format('Y-m-d-Hi').".html");
+		file_put_contents($this->dirname.DIRECTORY_SEPARATOR."/reports/dwp-".$this->today->format('Y-m-d-Hi').".html", $report);
+		exec("chrome ".str_replace("\\", "/", str_replace("C:\\", "/c/", $this->dirname))."/reports/dwp-".$this->today->format('Y-m-d-Hi').".html");
     }
 }
-
-
-
 
 $app = new DwpCli();
 
